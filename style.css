@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.logo {
+    background-color: #3b5438;
+    text-align: center;
+    padding: 8px;
+}
+
+.logo img {
+    width: 100px;
+}
+
+.navi {
+    background-color: #253e24;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 5px;
+}
+
+.navi a {
+    color: white;
+    text-decoration: none;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    padding: 0 5px;
+}
+
+.navi a:hover {
+    color: lightgreen;
+}
